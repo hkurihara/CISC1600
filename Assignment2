@@ -15,7 +15,6 @@ getline(cin, b);
 string c;
 getline(cin, c);
 
-cout << "Hi, my name is " << a << endl;
-cout << "I am " << b << endl;
-cout << "years old, and my favorite thing is " << c << endl;
+cout << "Hi, my name is " << a << "." << endl;
+cout << "I am " << b  << "years old and my favorite thing is " << c << "." << endl;
 }
