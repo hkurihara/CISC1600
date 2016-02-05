@@ -7,14 +7,15 @@ int main ()
 
 {
 string a;
-getline(cin, a);
-
 string b;
-getline(cin, b);
-
 string c;
-getline(cin, c);
 
-cout << "Hi, my name is " << a << "." << endl;
-cout << "I am " << b  << "years old and my favorite thing is " << c << "." << endl;
+cout << "What's your name?";
+getline(cin, a);
+cout << "What's your age?";
+getline(cin, b);
+cout << "What's your favorite thing?";
+getline(cin, c);
+cout << "Hi," << a << "." << endl;
+cout << "I know you are " << b << "years old and like " << c << "." << endl;
 }
