@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main ()
+
+
+{
+double a;
+double b=0;
+
+for(int f=1; f < 4; f = f + 1)
+
+{
+cout << "Input value " << f << ":" << endl;
+cin >> a;
+
+b=a+b;
+
+}
+
+cout << "Sum of above numbers: " << b <<  endl;
+
+return 0;
+
+}
