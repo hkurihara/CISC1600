@@ -1,0 +1,41 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main ()
+
+{
+
+int x;
+
+cout << "Guess the number. " <<endl;
+
+        while (x !=11)
+        {
+        cin >> x;
+
+        if ( x > 11)
+
+        {
+
+        cout << "Too Large, guess again."<<endl;
+
+        }
+
+        else if (x < 11)
+
+        {
+        cout<<"Too small, guess again."<<endl;
+
+        }
+
+        else
+        {
+        cout << "Number is correct." << endl;
+        }
+        }
+
+return 0;
+
+
+}
